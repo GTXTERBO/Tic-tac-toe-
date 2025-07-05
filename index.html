@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" class="Zidane ">
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Multiplayer Tic-Tac-Toe</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Firebase SDKs -->
+
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+
+</head>
+
+<body>
+
+  <h1>Multiplayer Tic-Tac-Toe</h1>
+
+  <!-- Player Name + Room -->
+
+  <input type="text" id="playerName" placeholder="Your Name" required>
+
+  <input type="text" id="roomInput" placeholder="Room ID" required>
+
+  <button onclick="joinRoom()">Join Room</button>
+
+  <div id="game" style="display:none;">
+
+    <p id="turnInfo">Waiting for opponent...</p>
+
+    <div class="grid">
+
+      <div class="cell" data-index="0"></div>
+
+      <div class="cell" data-index="1"></div>
+
+      <div class="cell" data-index="2"></div>
+
+      <div class="cell" data-index="3"></div>
+
+      <div class="cell" data-index="4"></div>
+
+      <div class="cell" data-index="5"></div>
+
+      <div class="cell" data-index="6"></div>
+
+      <div class="cell" data-index="7"></div>
+
+      <div class="cell" data-index="8"></div>
+
+    </div>
+
+    <p id="result"></p>
+
+    <button onclick="resetBoard()">Reset</button>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

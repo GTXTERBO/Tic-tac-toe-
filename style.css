@@ -1,0 +1,57 @@
+body {
+
+  background: purple;
+
+  color: white;
+
+  font-family: Arial;
+
+  text-align: center;
+
+}
+
+input, button {
+
+  padding: 10px;
+
+  font-size: 16px;
+
+  margin: 10px;
+
+}
+
+.grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(3, 100px);
+
+  gap: 10px;
+
+  justify-content: center;
+
+  margin: 20px auto;
+
+}
+
+.cell {
+
+  width: 100px;
+
+  height: 100px;
+
+  background: white;
+
+  color: black;
+
+  font-size: 2em;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  cursor: pointer;
+
+}
